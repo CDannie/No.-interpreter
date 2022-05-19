@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-        puts("No.");
+        if(argc == 2) puts("No.");
         return 0;
 }
